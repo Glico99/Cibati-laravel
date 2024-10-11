@@ -1,0 +1,43 @@
+@import url('shared.css');
+
+body{
+    block-size: 100dvh;
+}
+
+main{
+    inline-size: 80dvw;
+}
+
+.presentazione{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-block-end: 3cqi;
+
+}
+
+.presentazione img{
+    margin-inline-end: 2cqi;
+}
+
+#via{
+    color: white;
+    text-decoration: none;
+    inline-size: 30dvw;
+    margin-inline: 35dvw;
+}
+
+#via:hover{
+    color:rgba(197, 169, 99, 1);
+    text-decoration: underline;
+}
+
+.utili{
+    background: unset;
+    margin: 0;
+}
+
+.buttons>* {
+    margin-inline: 2cqi;
+}

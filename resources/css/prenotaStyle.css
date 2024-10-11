@@ -1,0 +1,49 @@
+@import url('shared.css');
+
+body {
+    block-size: 100dvh;
+    background: rgb(73, 73, 73);
+    background: linear-gradient(0deg, rgb(58, 58, 58) 0%, rgba(0, 0, 0, 1) 23%);
+}
+
+#prenotazione {
+    inline-size: 50dvw;
+    block-size: 30dvw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#prenotazione div {
+    display: flex;
+    flex-direction: column;
+    block-size: 20%;
+    align-items: center;
+    font-size: 2em;
+}
+
+#prenotazione label{
+    margin-block-end: 0.2cqi;
+}
+
+#prenotazione input {
+    inline-size: 15cqi;
+    block-size: 2cqi;
+}
+
+#prenotazione input[type=submit] {
+    font-size: 0.5em;
+    inline-size: 10cqi;
+    margin: 0;
+}
+
+.utili {
+    background: unset;
+    margin: 0;
+}
+
+.buttons>* {
+    margin-inline: 2cqi;
+    margin-block-start: -2cqi;
+}

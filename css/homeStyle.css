@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('./shared.css');
+@import url('./freccia.css');
+
+#fiorentina {
+    margin-block-start: -3.5cqi;
+}
+
+#freccia {
+    inline-size: 15cqi;
+    block-size: 5cqi;
+    margin-block-start: 1cqi;
+    margin-block-end: 10cqi;
+    text-align: center;
+}
+
+.vetrina {
+    background-color: rgba(73, 73, 73, 0.450);
+    inline-size: 70dvw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 3cqi;
+    border-radius: 10px;
+    margin-block-end: 2cqi;
+}
+
+.imgs img {
+    border-radius: 5px;
+    margin-inline: 3cqi;
+}
+
+.vetrina h3 {
+    font-size: 25px;
+}
